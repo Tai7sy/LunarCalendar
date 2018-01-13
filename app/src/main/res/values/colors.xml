@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_calendar_border">#f9f9f9</color>
+    <!-- title -->
+    <color name="color_calendar_title_gregorian">#9da8aa</color>
+    <color name="color_calendar_title_lunar">#9da8aa</color>
+    <color name="color_calendar_title_start">#f9f9f9</color>
+    <color name="color_calendar_title_end">#f9f9f9</color>
+    <color name="color_calendar_title_addition">#f63</color>
+
+    <!-- 周数 -->
+    <color name="color_calendar_weekindex">#222</color>
+    <color name="color_calendar_weekindex_background">#f9f9f9</color>
+
+
+    <!-- 周六和周日的两列 -->
+    <color name="color_calendar_weekend">#99351919</color> <!--unused-->
+    <color name="color_calendar_weekend_background">#f9f9f9</color>
+
+
+
+    <color name="color_calendar_header">#4b4b4b</color>
+    <color name="color_calendar_header_background">#f9f9f9</color>
+
+
+    <color name="color_calendar_outrange">#bcbcbc</color>
+    <color name="color_calendar_outrange_background">#f9f9f9</color>
+
+    <!-- 普通日期颜色 -->
+    <color name="color_calendar_normal_gregorian">#222</color>
+    <color name="color_calendar_normal_lunar">#4c4c4c</color>
+    <color name="color_calendar_normal_background">#f9f9f9</color>
+
+    <color name="color_calendar_today_gregorian">#f9f9f9</color><!--unused-->
+    <color name="color_calendar_today_lunar">#f9f9f9</color><!--unused-->
+    <color name="color_calendar_today_background">#c3f7ce</color>
+    <color name="color_calendar_solarterm">#c0c3</color>
+    <color name="color_calendar_festival">#cf90</color>
+    <color name="color_calendar_pressed">#f6f2f2f2</color>
+    <color name="color_calendar_focused">#f6f2f2f2</color>
+</resources>
