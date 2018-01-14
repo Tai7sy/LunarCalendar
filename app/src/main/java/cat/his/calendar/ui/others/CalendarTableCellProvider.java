@@ -10,7 +10,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.his.calendar.R;
+import cat.his.calendar.R;
 import cat.his.calendar.module.DateFormatter;
 import cat.his.calendar.module.LunarCalendar;
 

@@ -22,7 +22,7 @@ import android.widget.PopupMenu;
 import android.widget.PopupMenu.OnMenuItemClickListener;
 import android.widget.TextView;
 
-import com.his.calendar.R;
+import cat.his.calendar.R;
 import cat.his.calendar.module.DateFormatter;
 import cat.his.calendar.module.LunarCalendar;
 import cat.his.calendar.ui.others.CalendarPagerAdapter;
@@ -59,9 +59,8 @@ public class MainActivity extends FragmentActivity implements
         Window window = this.getWindow();//获得当前窗体对象
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {    //5.0以上
-            window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS | WindowManager.LayoutParams.FLAG_TRANSLUCENT_NAVIGATION);
-            //window.getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN | View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION | View.SYSTEM_UI_FLAG_LAYOUT_STABLE);
-            // window.getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN | View.SYSTEM_UI_FLAG_LAYOUT_STABLE);
+            window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS |
+                    WindowManager.LayoutParams.FLAG_TRANSLUCENT_NAVIGATION);
             window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
             window.setStatusBarColor(Color.LTGRAY);
             // window.setNavigationBarColor(Color.TRANSPARENT);
@@ -130,10 +129,10 @@ public class MainActivity extends FragmentActivity implements
             case R.id.imgNextMonth:
                 mPager.setCurrentItem(mPager.getCurrentItem() + 1);
                 break;
-            case R.id.imgToday:
+            case R.id.imgToday: //跳到今天
                 mPager.setCurrentItem(getTodayMonthIndex());
                 break;
-            case R.id.imgPopupMenu:
+            case R.id.imgPopupMenu://弹出菜单
                 PopupMenu popup = new PopupMenu(this, v);
                 popup.setOnMenuItemClickListener(this);
                 popup.inflate(R.menu.activity_main);

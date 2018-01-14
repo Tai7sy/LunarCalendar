@@ -8,7 +8,7 @@ import android.view.ViewGroup;
 import android.widget.TableLayout;
 import android.widget.TableRow;
 
-import com.his.calendar.R;
+import cat.his.calendar.R;
 
 public class CalendarPagerFragment extends Fragment {
 	

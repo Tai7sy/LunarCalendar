@@ -4,7 +4,7 @@ import java.util.Calendar;
 
 import android.content.res.Resources;
 
-import com.his.calendar.R;
+import cat.his.calendar.R;
 
 public class DateFormatter {
 

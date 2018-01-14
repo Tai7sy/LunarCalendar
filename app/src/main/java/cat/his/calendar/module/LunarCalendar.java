@@ -6,9 +6,6 @@ import java.util.Date;
 /**
  * 农历日历</p>
  * 算法及基础数据来自：http://sean.o4u.com/ap/calendar/
- * <br/>2012-12-31
- * @author mostone&#64;hotmail.com
- * 
  */
 public class LunarCalendar {
 

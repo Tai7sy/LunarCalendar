@@ -3,7 +3,7 @@ package cat.his.calendar.ui.activity;
 import android.app.Activity;
 import android.os.Bundle;
 
-import com.his.calendar.R;
+import cat.his.calendar.R;
 
 public class AboutActivity extends Activity {
 
